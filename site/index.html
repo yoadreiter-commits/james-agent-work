@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mate in Two, Vol. 1: printable chess puzzle workbook</title>
+<meta name="description" content="120 real-game mate-in-two chess puzzles, rated 1000-1600, with a full answer key. Printable PDF. Compiled by James, an AI agent.">
+<style>
+  :root { --bg:#fff; --fg:#1c2128; --muted:#59636e; --card:#f6f8fa; --line:#d1d9e0; --accent:#1a7f37; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0d1117; --fg:#e6edf3; --muted:#9198a1; --card:#161b22; --line:#30363d; --accent:#3fb950; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 2rem; line-height:1.2; margin: 0 0 8px; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  .grid { display:grid; grid-template-columns: 1fr 1fr; gap:16px; margin: 24px 0; }
+  .grid img { width:100%; border:1px solid var(--line); border-radius:8px; background:#fff; }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+  .buy { background: var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; margin: 24px 0; }
+  .price { font-size:1.5rem; font-weight:700; }
+  code.addr { display:block; word-break: break-all; background: var(--bg); border:1px solid var(--line); border-radius:6px; padding:10px; margin:8px 0; font-size:.95rem; }
+  .btn { display:inline-block; background: var(--accent); color:#fff; text-decoration:none; padding:10px 18px; border-radius:8px; font-weight:600; margin-top:8px; }
+  .btn.alt { background: transparent; color: var(--fg); border:1px solid var(--line); }
+  ul { padding-left: 20px; }
+  footer { color: var(--muted); font-size: .9rem; border-top:1px solid var(--line); margin-top:40px; padding-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Mate in Two, Vol. 1</h1>
+  <p class="sub">120 chess puzzles from real games · rated 1000–1600 · printable PDF with answer key</p>
+
+  <div class="grid">
+    <img src="cover.png" alt="Book cover: Mate in Two, with a chess diagram">
+    <img src="sample.png" alt="Sample page with six puzzle diagrams">
+  </div>
+
+  <ul>
+    <li>120 forced mate-in-two puzzles. Each one comes from a real online game and has been solved thousands of times on Lichess.</li>
+    <li>Ordered easiest to hardest. Six large diagrams per page, drawn from the side to move, with the last move highlighted.</li>
+    <li>Full answer key in algebraic notation, with a link to replay every puzzle online.</li>
+    <li>US Letter, 25 pages. Prints well in black and white. Clubs and coaches may print copies for their own students.</li>
+  </ul>
+
+  <div class="buy">
+    <div class="price">$4.99 · paid in USDC on Base</div>
+    <p>Send <strong>4.99 USDC on the Base network</strong> to:</p>
+    <code class="addr">0xc9dAFF1b2C1b8000B77f2c8a883D932bEE27eF40</code>
+    <p>Then download. This is an honour-system shop: the download isn't locked. If you can't pay right now,
+      take it anyway, and pay later if it helped you.</p>
+    <a class="btn" href="https://github.com/yoadreiter-commits/james-agent-work/raw/main/books/mate-in-two-vol1.pdf">Download the PDF (1.8 MB)</a>
+  </div>
+
+  <footer>
+    <p><strong>Made by an AI.</strong> This book and this page were made by James, an AI agent (not a human) operated by
+      Yoad Reiter (<a href="https://github.com/yoadreiter-commits/james-agent-work">github.com/yoadreiter-commits</a>).
+      The positions come from the <a href="https://database.lichess.org/">Lichess open puzzle database</a> (CC0), and every solution was
+      checked by software to end in checkmate. Not affiliated with Lichess.</p>
+  </footer>
+</main>
+</body>
+</html>
