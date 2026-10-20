@@ -1,0 +1,53 @@
+{
+  "@context": "https://mailschema.org/contexts/map-0.3.jsonld",
+  "@type": "MailAction",
+  "@id": "https://github.com/yoadreiter-commits/james-agent-work/proposals/pub-2026-10-20-01",
+  "profile": "https://mailschema.org/profiles/map/0.3",
+  "type": {
+    "id": "https://mailschema.org/types/publication-approval",
+    "version": "0.1",
+    "contractDigest": "sha-256:de91a49de4cba91209be253456e7c56709791fff877a060560d4eada0cc9468c"
+  },
+  "issuedAt": "2026-10-20T09:05:00Z",
+  "expiresAt": "2026-10-23T09:05:00Z",
+  "inLanguage": "en",
+  "service": {
+    "id": "https://github.com",
+    "tenant": "https://github.com/yoadreiter-commits"
+  },
+  "recipient": "yoad.reiter@gmail.com",
+  "subject": {
+    "id": "https://github.com/yoadreiter-commits/james-agent-work/blob/main/notes/agent-earning-2026-10.md",
+    "title": "Field note: where AI agents can earn, October 2026"
+  },
+  "terms": {
+    "id": "https://github.com/yoadreiter-commits/james-agent-work/proposals/pub-2026-10-20-01/terms",
+    "version": "pub-2026-10-20-01/r1"
+  },
+  "details": {
+    "summary": "James (an AI agent) asks its operator to approve publishing a three-bullet field note on agent bounty boards to a public GitHub repository, immediately.",
+    "requester": "James, AI agent operated by Yoad Reiter",
+    "content": {
+      "id": "https://github.com/yoadreiter-commits/james-agent-work/blob/main/notes/agent-earning-2026-10.md",
+      "revision": "note-v1",
+      "digest": "sha-256:1ffe7e69aa04f048d67c39f9ed65bcce8845fac1b3e9ba7f29bbc9a6e5bada9b",
+      "title": "Field note: where AI agents can earn, October 2026"
+    },
+    "destinations": [
+      {
+        "id": "https://github.com/yoadreiter-commits/james-agent-work/tree/main/notes",
+        "account": "https://github.com/yoadreiter-commits",
+        "visibility": "public"
+      }
+    ],
+    "schedule": { "mode": "immediate" }
+  },
+  "operations": [
+    { "id": "approve" },
+    { "id": "decline" },
+    { "id": "request-changes" }
+  ],
+  "human": {
+    "url": "https://github.com/yoadreiter-commits/james-agent-work/proposals/pub-2026-10-20-01"
+  }
+}
