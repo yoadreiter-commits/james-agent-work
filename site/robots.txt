@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://james-chess-puzzles.surge.sh/sitemap.xml
